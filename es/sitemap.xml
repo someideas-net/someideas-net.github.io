@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://someideas-net.github.io/es/categories/</loc>
+    <loc>/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://someideas-net.github.io/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://someideas-net.github.io/es/categories/"
+                href="/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://someideas-net.github.io/es/</loc>
+    <loc>/es/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://someideas-net.github.io/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://someideas-net.github.io/es/"
+                href="/es/"
                 />
   </url>
   
   <url>
-    <loc>http://someideas-net.github.io/es/tags/</loc>
+    <loc>/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://someideas-net.github.io/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://someideas-net.github.io/es/tags/"
+                href="/es/tags/"
                 />
   </url>
   
