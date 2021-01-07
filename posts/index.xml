@@ -13,7 +13,9 @@
       <pubDate>Thu, 07 Jan 2021 17:50:21 +0900</pubDate>
       
       <guid>http://someideas-net.github.io/posts/my-first-post/</guid>
-      <description>Hello World!</description>
+      <description>Hello World!
+testing it:
+export DEMO=true /bin/bash test.sh </description>
     </item>
     
   </channel>
