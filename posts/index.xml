@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SomeIdeas</title>
-    <link>https://someideas-net.github.io/posts/</link>
+    <link>https://someideas.net/posts/</link>
     <description>Recent content in Posts on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jan 2021 17:50:21 +0900</lastBuildDate><atom:link href="https://someideas-net.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 17:50:21 +0900</lastBuildDate><atom:link href="https://someideas.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post (2011, 2012, 2014, 2016)</title>
-      <link>https://someideas-net.github.io/posts/my-first-post/</link>
+      <link>https://someideas.net/posts/my-first-post/</link>
       <pubDate>Thu, 07 Jan 2021 17:50:21 +0900</pubDate>
       
-      <guid>https://someideas-net.github.io/posts/my-first-post/</guid>
+      <guid>https://someideas.net/posts/my-first-post/</guid>
       <description>Hello World!
 I built this blog in 2011 with Drupal, then I rebooted it in 2012 and 2014 using WordPress and Hugo in 2016. I started many times but, keeping everything updated was challenging, then I ended up tearing down over and over again.
 Now, up again, again with:
