@@ -6,26 +6,17 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jan 2021 18:50:34 +0900</lastBuildDate><atom:link href="https://someideas-net.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 17:50:21 +0900</lastBuildDate><atom:link href="https://someideas-net.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Second Post</title>
-      <link>https://someideas-net.github.io/posts/my-second-post/</link>
-      <pubDate>Thu, 07 Jan 2021 18:50:34 +0900</pubDate>
-      
-      <guid>https://someideas-net.github.io/posts/my-second-post/</guid>
-      <description>code should be broken
-codify &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en-us&amp;#34;&amp;gt; &amp;lt;head&amp;gt;&amp;lt;script src=&amp;#34;/livereload.js?mindelay=10&amp;amp;amp;v=2&amp;amp;amp;port=1313&amp;amp;amp;path=livereload&amp;#34; data-no-instant defer&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt; &amp;lt;title&amp;gt; My First Post | &amp;lt;/title&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;robots&amp;#34; content=&amp;#34;all,follow&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;googlebot&amp;#34; content=&amp;#34;index,follow,snippet,archive&amp;#34;&amp;gt; &amp;lt;meta property=&amp;#34;og:title&amp;#34; content=&amp;#34;My First Post&amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;og:description&amp;#34; content=&amp;#34;Hello World! testing it: export DEMO=true /bin/bash test.sh &amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;og:type&amp;#34; content=&amp;#34;article&amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;og:url&amp;#34; content=&amp;#34;//localhost:1313/posts/my-first-post/&amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;article:published_time&amp;#34; content=&amp;#34;2021-01-07T17:50:21+09:00&amp;#34; /&amp;gt; &amp;lt;meta property=&amp;#34;article:modified_time&amp;#34; content=&amp;#34;2021-01-07T17:50:21+09:00&amp;#34; /&amp;gt; &amp;lt;meta name=&amp;#34;twitter:card&amp;#34; content=&amp;#34;summary&amp;#34;/&amp;gt; &amp;lt;meta name=&amp;#34;twitter:title&amp;#34; content=&amp;#34;My First Post&amp;#34;/&amp;gt; &amp;lt;meta name=&amp;#34;twitter:description&amp;#34; content=&amp;#34;Hello World!</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
+      <title>My First Post (2011, 2012, 2014, 2016)</title>
       <link>https://someideas-net.github.io/posts/my-first-post/</link>
       <pubDate>Thu, 07 Jan 2021 17:50:21 +0900</pubDate>
       
       <guid>https://someideas-net.github.io/posts/my-first-post/</guid>
       <description>Hello World!
-testing it:
-export DEMO=true /bin/bash test.sh </description>
+I built this blog in 2011 with Drupal, then I rebooted it in 2012 and 2014 using WordPress and Hugo in 2016. I started many times but, keeping everything updated was challenging, then I ended up tearing down over and over again.
+Now, up again, again with:
+ github pages hugo  </description>
     </item>
     
   </channel>
