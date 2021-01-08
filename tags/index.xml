@@ -5,6 +5,16 @@
     <link>https://someideas.net/tags/</link>
     <description>Recent content in Tags on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://someideas.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Jan 2021 17:50:21 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about_me</title>
+      <link>https://someideas.net/tags/about_me/</link>
+      <pubDate>Thu, 07 Jan 2021 17:50:21 +0900</pubDate>
+      
+      <guid>https://someideas.net/tags/about_me/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
