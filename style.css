@@ -1,0 +1,118 @@
+.post-title {
+  --border: "1px";
+
+}
+
+.post {
+  margin: 10px auto;
+  padding:0px 0;
+  text-align:left
+}
+
+.post-meta {
+  color: #697b86;
+}
+
+.post:not(:last-of-type) {
+ border-bottom:0px solid hsla(0,0%,100%,.1);
+ border-bottom:0px solid var(--border-color)
+}
+
+.headings--one-size h1:not(first-child),
+.headings--one-size h2:not(first-child),
+.headings--one-size h3:not(first-child),
+.headings--one-size h4:not(first-child),
+.headings--one-size h5:not(first-child),
+.headings--one-size h6:not(first-child) {
+ margin-top:0px
+}
+
+body {
+  background-color:#c1c8d2;
+  color:#212F37
+}
+
+:root {
+ --accent:#212F37;
+ --background:#212F37;
+ --color:#212F37;
+ --border-color:hsla(0,0%,100%,0.1)
+}
+
+.logo {
+ color:#697b86;
+}
+
+div.code-toolbar>.toolbar>.toolbar-item>a,
+div.code-toolbar>.toolbar>.toolbar-item>button,
+div.code-toolbar>.toolbar>.toolbar-item>span {
+ background:#f5f2f0;
+ background:hsla(0,0%,88%,.2);
+ border-radius:.5em;
+ box-shadow:0 2px 0 0 rgba(0,0,0,.2);
+ color:#a83030;
+ font-size:.8em;
+ padding:0 .5em
+}
+
+.code-toolbar>.toolbar button {
+  background:rgba(132, 129, 129, 0.2)!important;
+  border-radius:0!important;
+  box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important;
+  color:#697b86 !important;
+  font-size:.8em!important;
+  margin:6px!important;
+  padding:10px!important;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+ }
+
+.code-toolbar {
+ border:1px solid rgba(141,155,163,.9);
+ margin:40px 0;
+ margin:var(--code-margin) 0;
+ padding:10px;
+ position:relative
+}
+
+
+.hanchor {
+  color:rgba(141,155,163,.9);
+  margin-left:10px;
+  text-decoration:none;
+  visibility:visible
+ }
+
+
+.token.atrule-id,
+.token.attr-name,
+.token.class-name,
+.token.constant,
+.token.deleted,
+.token.namespace,
+.token.operator,
+.token.placeholder,
+.token.property,
+.token.symbol,
+.token.tag,
+.token.tag-id,
+.token.unit,
+.token.variable {
+ color:rgba(0,0,0, .9)!important
+}
+
+.command-line-prompt>span:before,
+.token.deleted,
+.token.function,
+.token.function-name,
+.token.property,
+code.language-html,
+code.language-javascript {
+ color:#1b1d1e!important
+}
+
+.pagination__title-h {
+  background:#bbb
+ }

@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://someideas.net/tags/about_me/</loc>
-    <lastmod>2021-01-07T17:50:21+09:00</lastmod>
+    <loc>/tags/debian/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/tags/monitoring/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/tags/prometheus/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/tags/raspberry-pi/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/tags/vmware/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/tags/vmware_exporter/</loc>
+    <lastmod>2022-05-07T17:31:49+09:00</lastmod>
+  </url><url>
+    <loc>/posts/2022-05-07-my-another-first-post/</loc>
+    <lastmod>2022-05-07T01:06:29+09:00</lastmod>
+  </url><url>
+    <loc>/posts/2021-01-07-my-first-post/</loc>
+    <lastmod>2021-01-07T01:06:29+09:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+  </url><url>
+    <loc>/tags/about_me/</loc>
+  </url><url>
+    <loc>/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://someideas.net/posts/my-first-post/</loc>
-    <lastmod>2021-01-07T17:50:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://someideas.net/posts/</loc>
-    <lastmod>2021-01-07T17:50:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://someideas.net/</loc>
-    <lastmod>2021-01-07T17:50:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://someideas.net/tags/</loc>
-    <lastmod>2021-01-07T17:50:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://someideas.net/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://someideas.net/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://someideas.net/links/</loc>
-  </url>
-  
 </urlset>

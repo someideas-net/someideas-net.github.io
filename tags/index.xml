@@ -2,18 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SomeIdeas</title>
-    <link>https://someideas.net/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jan 2021 17:50:21 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2022 17:31:49 +0900</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian</title>
+      <link>/tags/debian/</link>
+      <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
+      
+      <guid>/tags/debian/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>/tags/monitoring/</link>
+      <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
+      
+      <guid>/tags/monitoring/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>prometheus</title>
+      <link>/tags/prometheus/</link>
+      <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
+      
+      <guid>/tags/prometheus/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>raspberry-pi</title>
+      <link>/tags/raspberry-pi/</link>
+      <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
+      
+      <guid>/tags/raspberry-pi/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>vmware</title>
+      <link>/tags/vmware/</link>
+      <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
+      
+      <guid>/tags/vmware/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>vmware_exporter</title>
+      <link>/tags/vmware_exporter/</link>
+      <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
+      
+      <guid>/tags/vmware_exporter/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>about_me</title>
-      <link>https://someideas.net/tags/about_me/</link>
-      <pubDate>Thu, 07 Jan 2021 17:50:21 +0900</pubDate>
+      <link>/tags/about_me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://someideas.net/tags/about_me/</guid>
+      <guid>/tags/about_me/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>
