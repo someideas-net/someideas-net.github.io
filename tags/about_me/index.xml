@@ -14,7 +14,7 @@
       <guid>/about/</guid>
       <description>I am Alex
  working in tech since 1999 wore many hats spent lots of hours in Ops side spent lots of hours as platform engineer  Currently focussed in cloud-native and hybrid environments
- Certs  2020 RHCE7 | Red Hat 2019 CKA | CNCF  </description>
+ Certs </description>
       <content>&lt;p&gt;I am Alex&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;working in tech since 1999&lt;/li&gt;
@@ -25,10 +25,6 @@
 &lt;p&gt;Currently focussed in &lt;code&gt;cloud-native&lt;/code&gt; and &lt;code&gt;hybrid&lt;/code&gt; environments&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;certs&#34;&gt;Certs&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2020 RHCE7 | Red Hat&lt;/li&gt;
-&lt;li&gt;2019 CKA   | CNCF&lt;/li&gt;
-&lt;/ul&gt;
 </content>
     </item>
     
