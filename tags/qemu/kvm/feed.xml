@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/tags/qemu/kvm/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IaaC | Pulumi | libvirt-python 01</title>
-      <link>/posts/2022-06-18-pulumi_libvirt-01/</link>
+      <title>IaaC | Pulumi | libvirt-python 01 | bootstrap</title>
+      <link>/posts/2022-06-18-pulumi_libvirt-01_bootstrap/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-18-pulumi_libvirt-01/</guid>
+      <guid>/posts/2022-06-18-pulumi_libvirt-01_bootstrap/</guid>
       <description>description Following my previous post about qemu/kvm setup, this is about pulumi/libvirt provider.
 tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.com/docs/reference/install/  curl -fsSL https://get.pulumi.com | sh source ~/.bashrc pulumi version  # personal aliases echo &amp;#39;alias pp=&amp;#34;pulumi up -y&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bashrc echo &amp;#39;alias pd=&amp;#34;pulumi destroy -y&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 2. bootstrap project 1. state, local PROJECT_NAME=kvm-deb-02 PULUMI_ROOT=~/PULUMI PULUMI_STATE=${PULUMI_ROOT}/state/state-${PROJECT_NAME}  rm -rf ${PULUMI_ROOT}/${PROJECT_NAME} ${PULUMI_STATE} mkdir -p ${PULUMI_ROOT}/${PROJECT_NAME} cd ${PULUMI_ROOT}/${PROJECT_NAME} mkdir ${PULUMI_STATE} pulumi login file://${PULUMI_STATE} 2.</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
