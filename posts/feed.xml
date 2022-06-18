@@ -6,11 +6,11 @@
     <description>Recent content in Posts on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/posts/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jun 2022 01:00:00 +0900</lastBuildDate><atom:link href="/posts/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IaaC | Pulumi | libvirt-python 01 | bootstrap</title>
       <link>/posts/2022-06-18-pulumi_libvirt-01_bootstrap/</link>
-      <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Jun 2022 01:00:00 +0900</pubDate>
       
       <guid>/posts/2022-06-18-pulumi_libvirt-01_bootstrap/</guid>
       <description>description Following my previous post about qemu/kvm setup, this is about pulumi/libvirt provider.
