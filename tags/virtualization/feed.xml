@@ -8,15 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/tags/virtualization/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Virtualization | qemu/kvm | my qemu/kvm setup</title>
-      <link>/posts/2022-06-18-my_qemu-kvm_setup/</link>
+      <title>Virtualization | qemu/kvm/libvirt | my qemu/kvm/libvirt setup</title>
+      <link>/posts/2022-06-18-my_qemu-kvm-libvirt_setup/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-18-my_qemu-kvm_setup/</guid>
-      <description>description I will create multiple content related to qemu/kvm, then this post is to use as reference.
+      <guid>/posts/2022-06-18-my_qemu-kvm-libvirt_setup/</guid>
+      <description>description I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.
 tasks  install OS (using debian netinstall) install virtualization tools modify main network to use as bridge  1. install OS (using debian netinstall)  I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. Ubuntu is using netplan (+ snap) and I just need a hypervisor, then debian is my choice  2.</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
-&lt;p&gt;I will create multiple content related to qemu/kvm, then this post is to use as reference.&lt;/p&gt;
+&lt;p&gt;I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.&lt;/p&gt;
 &lt;h2 id=&#34;tasks&#34;&gt;tasks&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;install OS (using debian netinstall)&lt;/li&gt;

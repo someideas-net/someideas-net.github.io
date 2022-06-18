@@ -8,10 +8,10 @@
     <loc>/tags/http/</loc>
     <lastmod>2022-06-18T01:00:00+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-06-18-simple_http-server/</loc>
+    <loc>/posts/</loc>
     <lastmod>2022-06-18T01:00:00+09:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/posts/2022-06-18-simple_http-server/</loc>
     <lastmod>2022-06-18T01:00:00+09:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -29,7 +29,7 @@
     <loc>/tags/virtualization/</loc>
     <lastmod>2022-06-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-06-18-my_qemu-kvm_setup/</loc>
+    <loc>/posts/2022-06-18-my_qemu-kvm-libvirt_setup/</loc>
     <lastmod>2022-06-18T00:00:00+09:00</lastmod>
   </url><url>
     <loc>/tags/monitoring/</loc>
