@@ -6,17 +6,17 @@
     <description>Recent content in http on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jun 2022 01:00:00 +0900</lastBuildDate><atom:link href="/tags/http/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/tags/http/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>simple http server for local consumption of .qcow2 images</title>
-      <link>/posts/2022-06-18-simple_http-server/</link>
-      <pubDate>Sat, 18 Jun 2022 01:00:00 +0900</pubDate>
+      <link>/posts/2022-06-17-simple_http-server/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-18-simple_http-server/</guid>
+      <guid>/posts/2022-06-17-simple_http-server/</guid>
       <description>description In order to speed up my workflow, I want to serve .qcow2 images from within my lan.
 Note: This is not a step by step guide, just my notes of how I put things together.
-tasks  get the code from google and build it set it up test it  1. get the code from google and build it Code taken from https://gist.github.com/paulmach/7271283
-// https://gist.github.com/paulmach/7271283 package main  import ( 	&amp;#34;flag&amp;#34; 	&amp;#34;log&amp;#34; 	&amp;#34;net/http&amp;#34; 	&amp;#34;path/filepath&amp;#34; )  var ( 	path = flag.</description>
+tasks  get the code from google and build it set it up test it  1. get the code from google and build it Code taken from:
+ https://gist.github.com/paulmach/7271283 https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099  // https://gist.github.com/paulmach/7271283 // https://gist.</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;In order to speed up my workflow, I want to serve &lt;code&gt;.qcow2&lt;/code&gt; images from within my lan.&lt;/p&gt;
 &lt;p&gt;Note: This is not a step by step guide, just my notes of how I put things together.&lt;/p&gt;
@@ -27,8 +27,13 @@ tasks  get the code from google and build it set it up test it  1. get the code 
 &lt;li&gt;test it&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;1-get-the-code-from-google-and-build-it&#34;&gt;1. get the code from google and build it&lt;/h2&gt;
-&lt;p&gt;Code taken from &lt;a href=&#34;https://gist.github.com/paulmach/7271283&#34;&gt;https://gist.github.com/paulmach/7271283&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code taken from:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/paulmach/7271283&#34;&gt;https://gist.github.com/paulmach/7271283&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099&#34;&gt;https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// https://gist.github.com/paulmach/7271283
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;

@@ -6,17 +6,79 @@
     <description>Recent content on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jun 2022 01:00:00 +0900</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IaaC | Pulumi | libvirt-python 01</title>
+      <link>/posts/2022-06-18-pulumi_libvirt-01/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
+      
+      <guid>/posts/2022-06-18-pulumi_libvirt-01/</guid>
+      <description>description Following my previous post about qemu/kvm setup, this is about pulumi/libvirt provider.
+tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.com/docs/reference/install/  curl -fsSL https://get.pulumi.com | sh source ~/.bashrc pulumi version  # personal aliases echo &amp;#39;alias pp=&amp;#34;pulumi up -y&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bashrc echo &amp;#39;alias pd=&amp;#34;pulumi destroy -y&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 2. bootstrap project 1. state, local PROJECT_NAME=kvm-deb-02 PULUMI_ROOT=~/PULUMI PULUMI_STATE=${PULUMI_ROOT}/state/state-${PROJECT_NAME}  rm -rf ${PULUMI_ROOT}/${PROJECT_NAME} ${PULUMI_STATE} mkdir -p ${PULUMI_ROOT}/${PROJECT_NAME} cd ${PULUMI_ROOT}/${PROJECT_NAME} mkdir ${PULUMI_STATE} pulumi login file://${PULUMI_STATE} 2.</description>
+      <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
+&lt;p&gt;Following my previous post about qemu/kvm setup, this is about pulumi/libvirt provider.&lt;/p&gt;
+&lt;h2 id=&#34;tasks&#34;&gt;tasks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;install pulumi&lt;/li&gt;
+&lt;li&gt;bootstrap project&lt;/li&gt;
+&lt;li&gt;test&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;1-install-pulumi&#34;&gt;1. install pulumi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pulumi.com/docs/reference/install/&#34;&gt;https://pulumi.com/docs/reference/install/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.pulumi.com &lt;span style=&#34;color:#111&#34;&gt;|&lt;/span&gt; sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;source&lt;/span&gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# personal aliases&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;alias pp=&amp;#34;pulumi up -y&amp;#34;&amp;#39;&lt;/span&gt;      &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;alias pd=&amp;#34;pulumi destroy -y&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;source&lt;/span&gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-bootstrap-project&#34;&gt;2. bootstrap project&lt;/h2&gt;
+&lt;h3 id=&#34;1-state-local&#34;&gt;1. state, local&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;PROJECT_NAME&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;kvm-deb-02
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_ROOT&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~/PULUMI
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_STATE&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_ROOT&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;/state/state-&lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PROJECT_NAME&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -rf &lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_ROOT&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;/&lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PROJECT_NAME&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_STATE&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir -p            &lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_ROOT&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;/&lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PROJECT_NAME&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;cd&lt;/span&gt;                  &lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_ROOT&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;/&lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PROJECT_NAME&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir               &lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_STATE&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi login file://&lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PULUMI_STATE&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-start-project&#34;&gt;2. start project&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi new python &lt;span style=&#34;color:#8045ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8045ff&#34;&gt;&lt;/span&gt;  --description &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Creates a Ubuntu 20.04 VM via libvirt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#8045ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8045ff&#34;&gt;&lt;/span&gt;  --name &lt;span style=&#34;color:#d88200&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;PROJECT_NAME&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color:#8045ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8045ff&#34;&gt;&lt;/span&gt;  --stack dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;source&lt;/span&gt; venv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;PULUMI_CONFIG_PASSPHRASE&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pulumi_libvirt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KVM_HOST=kvm-deb-02
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-copy-id root@${KVM_HOST}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi config set libvirt:uri qemu+ssh://root@${KVM_HOST}/system
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will create a &lt;code&gt;dummy&lt;/code&gt; virtual machine, main purpose is to confirm that communication is working fine.&lt;/p&gt;
+&lt;h2 id=&#34;3-test&#34;&gt;3. test&lt;/h2&gt;
+&lt;p&gt;in my &lt;code&gt;hypervisor&lt;/code&gt;, run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;watch virsh list --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and in my &lt;code&gt;workstation&lt;/code&gt;, run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi up
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;then check output of both terminals, then destroy it&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi destroy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
     <item>
       <title>simple http server for local consumption of .qcow2 images</title>
-      <link>/posts/2022-06-18-simple_http-server/</link>
-      <pubDate>Sat, 18 Jun 2022 01:00:00 +0900</pubDate>
+      <link>/posts/2022-06-17-simple_http-server/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-18-simple_http-server/</guid>
+      <guid>/posts/2022-06-17-simple_http-server/</guid>
       <description>description In order to speed up my workflow, I want to serve .qcow2 images from within my lan.
 Note: This is not a step by step guide, just my notes of how I put things together.
-tasks  get the code from google and build it set it up test it  1. get the code from google and build it Code taken from https://gist.github.com/paulmach/7271283
-// https://gist.github.com/paulmach/7271283 package main  import ( 	&amp;#34;flag&amp;#34; 	&amp;#34;log&amp;#34; 	&amp;#34;net/http&amp;#34; 	&amp;#34;path/filepath&amp;#34; )  var ( 	path = flag.</description>
+tasks  get the code from google and build it set it up test it  1. get the code from google and build it Code taken from:
+ https://gist.github.com/paulmach/7271283 https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099  // https://gist.github.com/paulmach/7271283 // https://gist.</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;In order to speed up my workflow, I want to serve &lt;code&gt;.qcow2&lt;/code&gt; images from within my lan.&lt;/p&gt;
 &lt;p&gt;Note: This is not a step by step guide, just my notes of how I put things together.&lt;/p&gt;
@@ -27,8 +89,13 @@ tasks  get the code from google and build it set it up test it  1. get the code 
 &lt;li&gt;test it&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;1-get-the-code-from-google-and-build-it&#34;&gt;1. get the code from google and build it&lt;/h2&gt;
-&lt;p&gt;Code taken from &lt;a href=&#34;https://gist.github.com/paulmach/7271283&#34;&gt;https://gist.github.com/paulmach/7271283&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code taken from:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/paulmach/7271283&#34;&gt;https://gist.github.com/paulmach/7271283&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099&#34;&gt;https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// https://gist.github.com/paulmach/7271283
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// https://gist.github.com/paulmach/7271283?permalink_comment_id=4130099#gistcomment-4130099
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;
@@ -91,10 +158,10 @@ tasks  get the code from google and build it set it up test it  1. get the code 
     
     <item>
       <title>Virtualization | qemu/kvm/libvirt | my qemu/kvm/libvirt setup</title>
-      <link>/posts/2022-06-18-my_qemu-kvm-libvirt_setup/</link>
-      <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
+      <link>/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-18-my_qemu-kvm-libvirt_setup/</guid>
+      <guid>/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</guid>
       <description>description I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.
 tasks  install OS (using debian netinstall) install virtualization tools modify main network to use as bridge  1. install OS (using debian netinstall)  I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. Ubuntu is using netplan (+ snap) and I just need a hypervisor, then debian is my choice  2.</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
