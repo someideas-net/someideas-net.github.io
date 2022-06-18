@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about_me on SomeIdeas</title>
+    <link>/tags/about_me/</link>
+    <description>Recent content in about_me on SomeIdeas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/about_me/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am Alex
+ working in tech since 1999 wore many hats spent lots of hours in Ops side spent lots of hours as platform engineer  Currently focussed in cloud-native and hybrid environments
+ Certs    year short title description     2020 RHCS-Ansible Red Hat Certified Specialist in Ansible Automation -   2020 RHCE 7 Red Hat Certified Engineer -   2020 RHCSA 7 Red Hat Certified System Administrator -   2020 CKA Certified Kubernetes Administrator -   2014 VCP5-DCV VMware Certified Professional 5 - Data Center Virtualization -   2014 RHCE 6 Red Hat Certified Engineer -   2014 RHCSA 6 Red Hat Certified System Administrator -   2013 VCA-DCV VMware Certified Associate - Data Center Virtualization -    </description>
+      <content>&lt;p&gt;I am Alex&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;working in tech since 1999&lt;/li&gt;
+&lt;li&gt;wore many hats&lt;/li&gt;
+&lt;li&gt;spent lots of hours in Ops side&lt;/li&gt;
+&lt;li&gt;spent lots of hours as platform engineer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Currently focussed in &lt;code&gt;cloud-native&lt;/code&gt; and &lt;code&gt;hybrid&lt;/code&gt; environments&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;certs&#34;&gt;Certs&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;year&lt;/th&gt;
+&lt;th&gt;short&lt;/th&gt;
+&lt;th&gt;title&lt;/th&gt;
+&lt;th&gt;description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2020&lt;/td&gt;
+&lt;td&gt;RHCS-Ansible&lt;/td&gt;
+&lt;td&gt;Red Hat Certified Specialist in Ansible Automation&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2020&lt;/td&gt;
+&lt;td&gt;RHCE 7&lt;/td&gt;
+&lt;td&gt;Red Hat Certified Engineer&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2020&lt;/td&gt;
+&lt;td&gt;RHCSA 7&lt;/td&gt;
+&lt;td&gt;Red Hat Certified System Administrator&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2020&lt;/td&gt;
+&lt;td&gt;CKA&lt;/td&gt;
+&lt;td&gt;Certified Kubernetes Administrator&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2014&lt;/td&gt;
+&lt;td&gt;VCP5-DCV&lt;/td&gt;
+&lt;td&gt;VMware Certified Professional 5 - Data Center Virtualization&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2014&lt;/td&gt;
+&lt;td&gt;RHCE 6&lt;/td&gt;
+&lt;td&gt;Red Hat Certified Engineer&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2014&lt;/td&gt;
+&lt;td&gt;RHCSA 6&lt;/td&gt;
+&lt;td&gt;Red Hat Certified System Administrator&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2013&lt;/td&gt;
+&lt;td&gt;VCA-DCV&lt;/td&gt;
+&lt;td&gt;VMware Certified Associate - Data Center Virtualization&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about_old/</guid>
+      <description>I am Alex
+ working in tech since 1999 wore many hats spent lots of hours in Ops side spent lots of hours as platform engineer  Currently focussed in cloud-native and hybrid environments
+ Certs </description>
+      <content>&lt;p&gt;I am Alex&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;working in tech since 1999&lt;/li&gt;
+&lt;li&gt;wore many hats&lt;/li&gt;
+&lt;li&gt;spent lots of hours in Ops side&lt;/li&gt;
+&lt;li&gt;spent lots of hours as platform engineer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Currently focussed in &lt;code&gt;cloud-native&lt;/code&gt; and &lt;code&gt;hybrid&lt;/code&gt; environments&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;certs&#34;&gt;Certs&lt;/h2&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
