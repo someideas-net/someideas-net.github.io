@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jun 2022 01:00:00 +0900</lastBuildDate><atom:link href="/posts/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IaaC | Pulumi | libvirt-python 01 | bootstrap</title>
-      <link>/posts/2022-06-18-pulumi_libvirt-01_bootstrap/</link>
+      <title>IaaC | Pulumi | libvirt-python 00 | bootstrap</title>
+      <link>/posts/2022-06-18-pulumi_libvirt-00_bootstrap/</link>
       <pubDate>Sat, 18 Jun 2022 01:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-18-pulumi_libvirt-01_bootstrap/</guid>
+      <guid>/posts/2022-06-18-pulumi_libvirt-00_bootstrap/</guid>
       <description>description Following my previous post about qemu/kvm setup, this is about pulumi/libvirt provider.
 tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.com/docs/reference/install/  curl -fsSL https://get.pulumi.com | sh source ~/.bashrc pulumi version  # personal aliases echo &amp;#39;alias pp=&amp;#34;pulumi up -y&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bashrc echo &amp;#39;alias pd=&amp;#34;pulumi destroy -y&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bashrc source ~/.bashrc 2. bootstrap project 1. state, local PROJECT_NAME=kvm-deb-02 PULUMI_ROOT=~/PULUMI PULUMI_STATE=${PULUMI_ROOT}/state/state-${PROJECT_NAME}  rm -rf ${PULUMI_ROOT}/${PROJECT_NAME} ${PULUMI_STATE} mkdir -p ${PULUMI_ROOT}/${PROJECT_NAME} cd ${PULUMI_ROOT}/${PROJECT_NAME} mkdir ${PULUMI_STATE} pulumi login file://${PULUMI_STATE} 2.</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
@@ -67,6 +67,64 @@ tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;then check output of both terminals, then destroy it&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pulumi destroy
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
+      <title>IaaC | Pulumi | libvirt-python series</title>
+      <link>/posts/2022-06-18-pulumi_libvirt-series/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
+      
+      <guid>/posts/2022-06-18-pulumi_libvirt-series/</guid>
+      <description>description The idea of this series is to share my progress integrating pulumi to my workflow. While googling for pulumi + libvirt I came across Dustin&amp;rsquo;s post https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt which is golang based.
+I have taken his work as a base, transpiled his code to python and then started to do my own thing.
+progress    exercise nr description     exercise_1 create domain   exercise_2 create pool, media_volume volume for .</description>
+      <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
+&lt;p&gt;The idea of this series is to share my progress integrating pulumi to my workflow. While googling for &lt;code&gt;pulumi + libvirt&lt;/code&gt; I came across Dustin&amp;rsquo;s post &lt;a href=&#34;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&#34;&gt;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&lt;/a&gt; which is golang based.&lt;/p&gt;
+&lt;p&gt;I have taken his work as a base, transpiled his code to python and then started to do my own thing.&lt;/p&gt;
+&lt;h2 id=&#34;progress&#34;&gt;progress&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;exercise nr&lt;/th&gt;
+&lt;th&gt;description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_1/__main__.py&#34;&gt;exercise_1&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;create &lt;code&gt;domain&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_2/__main__.py&#34;&gt;exercise_2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;create &lt;code&gt;pool&lt;/code&gt;, &lt;code&gt;media_volume&lt;/code&gt; volume for .img, &lt;code&gt;vm-boot&lt;/code&gt; volume for the os&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_3/__main__.py&#34;&gt;exercise_3&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;add serial console&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_4/__main__.py&#34;&gt;exercise_4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;add &lt;code&gt;cloud_init&lt;/code&gt; (user:pw)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_5/__main__.py&#34;&gt;exercise_5&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;add &lt;code&gt;cloud_init&lt;/code&gt; (network nat)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_6/__main__.py&#34;&gt;exercise_6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;get &amp;ldquo;IP Address&amp;rdquo; and &amp;ldquo;VM Name&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/exercise_7/__main__.py&#34;&gt;exercise_7&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;add network autostart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;exercises/__main__.py&#34;&gt;exercise_final&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;change network nat -&amp;gt; br0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
     </item>
     
     <item>

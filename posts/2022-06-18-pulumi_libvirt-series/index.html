@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>IaaC | Pulumi | libvirt-python series :: SomeIdeas</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="pulumi-libvirt-python series" />
+<meta name="keywords" content="pulumi, python, libvirt" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/posts/2022-06-18-pulumi_libvirt-series/" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D57EZ9PCNJ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-D57EZ9PCNJ', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/ahx.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/ahx.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="IaaC | Pulumi | libvirt-python series">
+<meta property="og:description" content="pulumi-libvirt-python series" />
+<meta property="og:url" content="/posts/2022-06-18-pulumi_libvirt-series/" />
+<meta property="og:site_name" content="SomeIdeas" />
+
+  <meta property="og:image" content="/">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2022-06-18 00:00:00 &#43;0900 JST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="ahx">
+
+
+<div class="container full">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    SomeIdeas
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/feed.xml">rss</a></li>
+        
+      
+        
+          <li><a href="/tags">Tags</a></li>
+        
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/feed.xml">rss</a></li>
+      
+    
+      
+        <li><a href="/tags">Tags</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/2022-06-18-pulumi_libvirt-series/">IaaC | Pulumi | libvirt-python series</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2022/06/18
+        
+      </span>
+    
+    
+      <span class="post-author">:: Alex</span>
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/pulumi/">pulumi</a>&nbsp;
+    
+    #<a href="/tags/python/">python</a>&nbsp;
+    
+    #<a href="/tags/libvirt/">libvirt</a>&nbsp;
+    
+    #<a href="/tags/qemu/kvm/">qemu/kvm</a>&nbsp;
+    
+    #<a href="/tags/debian/">debian</a>&nbsp;
+    
+    #<a href="/tags/virtualization/">virtualization</a>&nbsp;
+    
+  </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="description">description<a href="#description" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The idea of this series is to share my progress integrating pulumi to my workflow. While googling for <code>pulumi + libvirt</code> I came across Dustin&rsquo;s post <a href="https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt">https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt</a> which is golang based.</p>
+<p>I have taken his work as a base, transpiled his code to python and then started to do my own thing.</p>
+<h2 id="progress">progress<a href="#progress" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<table>
+<thead>
+<tr>
+<th>exercise nr</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="exercises/exercise_1/__main__.py">exercise_1</a></td>
+<td>create <code>domain</code></td>
+</tr>
+<tr>
+<td><a href="exercises/exercise_2/__main__.py">exercise_2</a></td>
+<td>create <code>pool</code>, <code>media_volume</code> volume for .img, <code>vm-boot</code> volume for the os</td>
+</tr>
+<tr>
+<td><a href="exercises/exercise_3/__main__.py">exercise_3</a></td>
+<td>add serial console</td>
+</tr>
+<tr>
+<td><a href="exercises/exercise_4/__main__.py">exercise_4</a></td>
+<td>add <code>cloud_init</code> (user:pw)</td>
+</tr>
+<tr>
+<td><a href="exercises/exercise_5/__main__.py">exercise_5</a></td>
+<td>add <code>cloud_init</code> (network nat)</td>
+</tr>
+<tr>
+<td><a href="exercises/exercise_6/__main__.py">exercise_6</a></td>
+<td>get &ldquo;IP Address&rdquo; and &ldquo;VM Name&rdquo;</td>
+</tr>
+<tr>
+<td><a href="exercises/exercise_7/__main__.py">exercise_7</a></td>
+<td>add network autostart</td>
+</tr>
+<tr>
+<td><a href="exercises/__main__.py">exercise_final</a></td>
+<td>change network nat -&gt; br0</td>
+</tr>
+</tbody>
+</table>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="/posts/2022-06-18-pulumi_libvirt-00_bootstrap/">
+                <span class="button__icon">←</span>
+                <span class="button__text">IaaC | Pulumi | libvirt-python 00 | bootstrap</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="/posts/2022-06-17-simple_http-server/">
+                <span class="button__text">simple http server for local consumption of .qcow2 images</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+  
+
+  
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a> :: modified by <a href="https://twitter.com/vacasvoladoras">vacasvoladoras</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
