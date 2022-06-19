@@ -75,11 +75,11 @@ tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
       
       <guid>/posts/2022-06-18-pulumi_libvirt-series/</guid>
-      <description>description The idea of this series is to share my progress integrating pulumi to my workflow. While googling for pulumi + libvirt I came across Dustin&amp;rsquo;s post https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt which is written in golang.
+      <description>description The idea of this series is to share my progress integrating pulumi to my workflow. While googling for pulumi + libvirt I came across Dustin Pecker&amp;rsquo;s blog https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt which is written in golang.
 I have taken his work as a base, transpiled his code to python and then started to do my own thing.
 progress TODO</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
-&lt;p&gt;The idea of this series is to share my progress integrating pulumi to my workflow. While googling for &lt;code&gt;pulumi + libvirt&lt;/code&gt; I came across Dustin&amp;rsquo;s post &lt;a href=&#34;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&#34;&gt;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&lt;/a&gt; which is written in golang.&lt;/p&gt;
+&lt;p&gt;The idea of this series is to share my progress integrating pulumi to my workflow. While googling for &lt;i&gt;&lt;code&gt;pulumi + libvirt&lt;/code&gt;&lt;/i&gt; I came across Dustin Pecker&amp;rsquo;s blog &lt;a href=&#34;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&#34;&gt;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&lt;/a&gt; which is written in golang.&lt;/p&gt;
 &lt;p&gt;I have taken his work as a base, transpiled his code to python and then started to do my own thing.&lt;/p&gt;
 &lt;h2 id=&#34;progress&#34;&gt;progress&lt;/h2&gt;
 &lt;p&gt;TODO&lt;/p&gt;
@@ -93,7 +93,7 @@ progress TODO</description>
       
       <guid>/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</guid>
       <description>description I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.
-tasks  install OS (using debian netinstall) install virtualization tools modify main network to use as bridge  1. install OS (using debian netinstall)  I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. Ubuntu is using netplan (+ snap) and I just need a hypervisor, then debian is my choice  2.</description>
+tasks  install OS (using debian netinstall) install virtualization tools modify main network to use as bridge  1. install OS (using debian netinstall)  I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. [1], [2], [3] Ubuntu is using netplan (+ snap) and I just need a hypervisor, then debian is my choice  [1], [2], [3]</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.&lt;/p&gt;
 &lt;h2 id=&#34;tasks&#34;&gt;tasks&lt;/h2&gt;
@@ -104,9 +104,10 @@ tasks  install OS (using debian netinstall) install virtualization tools modify 
 &lt;/ol&gt;
 &lt;h2 id=&#34;1-install-os-using-debian-netinstall&#34;&gt;1. install OS (using debian netinstall)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi.&lt;/li&gt;
+&lt;li&gt;I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. [1], [2], [3]&lt;/li&gt;
 &lt;li&gt;Ubuntu is using netplan (+ snap) and I just need a &lt;code&gt;hypervisor&lt;/code&gt;, then debian is my choice&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dmacvicar/terraform-provider-libvirt/issues/864&#34;&gt;[1]&lt;/a&gt;, &lt;a href=&#34;https://github.com/dmacvicar/terraform-provider-libvirt/issues/886&#34;&gt;[2]&lt;/a&gt;, &lt;a href=&#34;https://github.com/dmacvicar/terraform-provider-libvirt/issues/916&#34;&gt;[3]&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-install-virtualization-tools&#34;&gt;2. install virtualization tools&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /proc/cpuinfo &lt;span style=&#34;color:#111&#34;&gt;|&lt;/span&gt;grep -E &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;vmx|svm&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt install qemu-kvm libvirt-daemon-system cockpit cockpit-machines
