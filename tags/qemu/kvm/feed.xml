@@ -563,13 +563,45 @@ tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.
       <description>description The idea of this series is to share my progress integrating Pulumi to my workflow.
 While googling for pulumi + libvirt I came across Dustin Pecker&amp;rsquo;s blog https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt which is written in golang.
 I have taken his work as a base, transpiled his code to python and then started to do my own thing.
-progress TODO</description>
+progress    Links     01 - Adding Domain   02 - Adding Storage   03 - Adding Serial Console   04 - Adding CloudInit-userdata   05 - Adding CloudInit-network   06 - Get IP_Address and VM-Name   07 - Adding Autostart   08 - Changing network NAT -&amp;gt; Bridge    </description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;The idea of this series is to share my progress integrating Pulumi to my workflow.&lt;/p&gt;
 &lt;p&gt;While googling for &lt;i&gt;&lt;code&gt;pulumi + libvirt&lt;/code&gt;&lt;/i&gt; I came across Dustin Pecker&amp;rsquo;s blog &lt;a href=&#34;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&#34;&gt;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&lt;/a&gt; which is written in golang.&lt;/p&gt;
 &lt;p&gt;I have taken his work as a base, transpiled his code to python and then started to do my own thing.&lt;/p&gt;
 &lt;h2 id=&#34;progress&#34;&gt;progress&lt;/h2&gt;
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Links&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-01_add-domain/&#34; title=&#34;Adding Domain&#34;&gt;01 - Adding Domain&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-02_add-storage/&#34; title=&#34;Adding Storage&#34;&gt;02 - Adding Storage&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-03_add-serial_console/&#34; title=&#34;Adding Serial Console&#34;&gt;03 - Adding Serial Console&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-04_add-cloudinit_userdata/&#34; title=&#34;Adding CloudInit-userdata&#34;&gt;04 - Adding CloudInit-userdata&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-05_add-cloudinit_network-config/&#34; title=&#34;Adding CloudInit-network&#34;&gt;05 - Adding CloudInit-network&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-06_get_ip-address-vm-name/&#34; title=&#34;Get IP_Address and VM-Name&#34;&gt;06 - Get IP_Address and VM-Name&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-07_add-autostart/&#34; title=&#34;Adding Autostart&#34;&gt;07 - Adding Autostart&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://someideas.net/posts/2022-06-27-pulumi_libvirt-08_changing_network-nat-bridge/&#34; title=&#34;Changing network NAT -&amp;gt; Bridge&#34;&gt;08 - Changing network NAT -&amp;gt; Bridge&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </content>
     </item>
     
