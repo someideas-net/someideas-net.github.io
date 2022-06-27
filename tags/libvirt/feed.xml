@@ -613,7 +613,7 @@ progress    Links     01 - Adding Domain   02 - Adding Storage   03 - Adding Ser
       
       <guid>https://someideas.net/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</guid>
       <description>description I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.
-tasks  install OS (using debian netinstall) install virtualization tools modify main network to use as bridge  1. install OS (using debian netinstall)  I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. [1], [2], [3] Ubuntu is using netplan (+ snap) and I just need a hypervisor, then debian is my choice  [1], [2], [3]</description>
+tasks  install OS (using debian netinstall) install virtualization tools modify main network to use as bridge  1. install OS (using debian netinstall)  I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform/Pulumi. [1], [2], [3] Ubuntu is using netplan (+ snap) and I just need a hypervisor, then debian is my choice  [1], [2], [3]</description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;I will create multiple content related to qemu/kvm/libvirt, then this post is to use as reference.&lt;/p&gt;
 &lt;h2 id=&#34;tasks&#34;&gt;tasks&lt;/h2&gt;
@@ -624,7 +624,7 @@ tasks  install OS (using debian netinstall) install virtualization tools modify 
 &lt;/ol&gt;
 &lt;h2 id=&#34;1-install-os-using-debian-netinstall&#34;&gt;1. install OS (using debian netinstall)&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform+Pulumi. [1], [2], [3]&lt;/li&gt;
+&lt;li&gt;I usually go with fedora server but, I need different distribution because there is an error with ssh and Terraform/Pulumi. [1], [2], [3]&lt;/li&gt;
 &lt;li&gt;Ubuntu is using netplan (+ snap) and I just need a &lt;code&gt;hypervisor&lt;/code&gt;, then debian is my choice&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/dmacvicar/terraform-provider-libvirt/issues/864&#34;&gt;[1]&lt;/a&gt;, &lt;a href=&#34;https://github.com/dmacvicar/terraform-provider-libvirt/issues/886&#34;&gt;[2]&lt;/a&gt;, &lt;a href=&#34;https://github.com/dmacvicar/terraform-provider-libvirt/issues/916&#34;&gt;[3]&lt;/a&gt;&lt;/p&gt;
