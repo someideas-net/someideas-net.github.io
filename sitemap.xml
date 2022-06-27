@@ -2,31 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-07_add-autostart/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-08_changing_network-nat-bridge/</loc>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/tags/libvirt/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/posts/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/tags/pulumi/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/tags/python/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/tags/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/tags/ubuntu/</loc>
-    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/tags/virtualization/</loc>
+    <lastmod>2022-06-27T08:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-07_add-autostart/</loc>
     <lastmod>2022-06-27T07:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-06_get_ip-address-vm-name/</loc>
@@ -50,9 +53,6 @@
     <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-00_bootstrap/</loc>
     <lastmod>2022-06-18T01:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://someideas.net/tags/debian/</loc>
-    <lastmod>2022-06-18T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://someideas.net/posts/2022-06-18-pulumi_libvirt-series/</loc>
     <lastmod>2022-06-18T00:00:00+09:00</lastmod>
   </url><url>
@@ -64,6 +64,9 @@
   </url><url>
     <loc>https://someideas.net/posts/2022-06-17-simple_http-server/</loc>
     <lastmod>2022-06-17T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/debian/</loc>
+    <lastmod>2022-06-16T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://someideas.net/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</loc>
     <lastmod>2022-06-16T00:00:00+09:00</lastmod>

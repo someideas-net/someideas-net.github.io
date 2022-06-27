@@ -6,11 +6,11 @@
     <description>Recent content in Tags on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jun 2022 07:00:00 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2022 08:00:00 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>libvirt</title>
       <link>https://someideas.net/tags/libvirt/</link>
-      <pubDate>Mon, 27 Jun 2022 07:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 08:00:00 +0900</pubDate>
       
       <guid>https://someideas.net/tags/libvirt/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>pulumi</title>
       <link>https://someideas.net/tags/pulumi/</link>
-      <pubDate>Mon, 27 Jun 2022 07:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 08:00:00 +0900</pubDate>
       
       <guid>https://someideas.net/tags/pulumi/</guid>
       <description></description>
@@ -30,7 +30,7 @@
     <item>
       <title>python</title>
       <link>https://someideas.net/tags/python/</link>
-      <pubDate>Mon, 27 Jun 2022 07:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 08:00:00 +0900</pubDate>
       
       <guid>https://someideas.net/tags/python/</guid>
       <description></description>
@@ -40,7 +40,7 @@
     <item>
       <title>ubuntu</title>
       <link>https://someideas.net/tags/ubuntu/</link>
-      <pubDate>Mon, 27 Jun 2022 07:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 08:00:00 +0900</pubDate>
       
       <guid>https://someideas.net/tags/ubuntu/</guid>
       <description></description>
@@ -50,19 +50,9 @@
     <item>
       <title>virtualization</title>
       <link>https://someideas.net/tags/virtualization/</link>
-      <pubDate>Mon, 27 Jun 2022 07:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 08:00:00 +0900</pubDate>
       
       <guid>https://someideas.net/tags/virtualization/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>debian</title>
-      <link>https://someideas.net/tags/debian/</link>
-      <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://someideas.net/tags/debian/</guid>
       <description></description>
       <content></content>
     </item>
@@ -83,6 +73,16 @@
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0900</pubDate>
       
       <guid>https://someideas.net/tags/http/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://someideas.net/tags/debian/</link>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://someideas.net/tags/debian/</guid>
       <description></description>
       <content></content>
     </item>
