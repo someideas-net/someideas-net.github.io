@@ -499,7 +499,7 @@ tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.
     </item>
     
     <item>
-      <title>IaaC | Pulumi | libvirt-python series</title>
+      <title>IaaC | Pulumi start | libvirt-python series</title>
       <link>https://someideas.net/posts/2022-06-18-pulumi_libvirt-series/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0900</pubDate>
       
