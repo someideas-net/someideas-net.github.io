@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>about_me on SomeIdeas</title>
-    <link>/tags/about_me/</link>
+    <link>https://someideas.net/tags/about_me/</link>
     <description>Recent content in about_me on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/about_me/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://someideas.net/tags/about_me/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://someideas.net/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://someideas.net/about/</guid>
       <description>I am Alex
  working in tech since 1999 wore many hats spent lots of hours in Ops side spent lots of hours as platform engineer  Currently focussed in cloud-native and hybrid environments
  Certs    year short title description     2020 RHCS-Ansible Red Hat Certified Specialist in Ansible Automation -   2020 RHCE 7 Red Hat Certified Engineer -   2020 RHCSA 7 Red Hat Certified System Administrator -   2020 CKA Certified Kubernetes Administrator -   2014 VCP5-DCV VMware Certified Professional 5 - Data Center Virtualization -   2014 RHCE 6 Red Hat Certified Engineer -   2014 RHCSA 6 Red Hat Certified System Administrator -   2013 VCA-DCV VMware Certified Associate - Data Center Virtualization -    </description>
@@ -85,28 +85,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about_old/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about_old/</guid>
-      <description>I am Alex
- working in tech since 1999 wore many hats spent lots of hours in Ops side spent lots of hours as platform engineer  Currently focussed in cloud-native and hybrid environments
- Certs </description>
-      <content>&lt;p&gt;I am Alex&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;working in tech since 1999&lt;/li&gt;
-&lt;li&gt;wore many hats&lt;/li&gt;
-&lt;li&gt;spent lots of hours in Ops side&lt;/li&gt;
-&lt;li&gt;spent lots of hours as platform engineer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Currently focussed in &lt;code&gt;cloud-native&lt;/code&gt; and &lt;code&gt;hybrid&lt;/code&gt; environments&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;certs&#34;&gt;Certs&lt;/h2&gt;
 </content>
     </item>
     

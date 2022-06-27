@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>raspberry-pi on SomeIdeas</title>
-    <link>/tags/raspberry-pi/</link>
+    <link>https://someideas.net/tags/raspberry-pi/</link>
     <description>Recent content in raspberry-pi on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 May 2022 17:31:49 +0900</lastBuildDate><atom:link href="/tags/raspberry-pi/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2022 17:31:49 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/raspberry-pi/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring | Prometheus | vmware_exporter in Raspberry Pi</title>
-      <link>/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</link>
+      <link>https://someideas.net/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</link>
       <pubDate>Sat, 07 May 2022 17:31:49 +0900</pubDate>
       
-      <guid>/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</guid>
+      <guid>https://someideas.net/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</guid>
       <description>At home, I usually use RPi-4 as NAS and also for monitoring purposes. As hypervisor I use Proxmox and VMware.
 This post is to share how I monitor my VMware cluster using vmware_exporter. Prometheus/Grafana Cloud will share in different post.
 links  https://github.com/pryorda/vmware_exporter https://stackoverflow.com/questions/37211115/how-to-enable-a-virtualenv-in-a-systemd-service-unit  setup system groupadd prometheus useradd -d /opt/prometheus -g prometheus -m prometheus install packages python-venv apt install python3-venv python3 -m venv /opt/venv source /opt/venv/bin/activate vmware_exporter pip install vmware_exporter config mkdir /opt/vmware_exporter cd /opt/vmware_exporter vim config.</description>

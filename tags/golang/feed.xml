@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>golang on SomeIdeas</title>
-    <link>/tags/golang/</link>
+    <link>https://someideas.net/tags/golang/</link>
     <description>Recent content in golang on SomeIdeas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/tags/golang/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/golang/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>simple http server for local consumption of .qcow2 images</title>
-      <link>/posts/2022-06-17-simple_http-server/</link>
+      <link>https://someideas.net/posts/2022-06-17-simple_http-server/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0900</pubDate>
       
-      <guid>/posts/2022-06-17-simple_http-server/</guid>
+      <guid>https://someideas.net/posts/2022-06-17-simple_http-server/</guid>
       <description>description In order to speed up my workflow, I want to serve .qcow2 images from within my lan.
 Note: This is not a step by step guide, just my notes of how I put things together.
 tasks  get the code from google and build it set it up test it  1. get the code from google and build it Code taken from:

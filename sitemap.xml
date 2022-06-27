@@ -2,80 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/debian/</loc>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-07_add-autostart/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/libvirt/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/pulumi/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/python/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/ubuntu/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/virtualization/</loc>
+    <lastmod>2022-06-27T07:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-06_get_ip-address-vm-name/</loc>
+    <lastmod>2022-06-27T06:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-05_add-cloudinit_network-config/</loc>
+    <lastmod>2022-06-27T05:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-04_add-cloudinit_userdata/</loc>
+    <lastmod>2022-06-27T04:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-03_add-serial_console/</loc>
+    <lastmod>2022-06-27T03:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-02_add-storage/</loc>
+    <lastmod>2022-06-27T02:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-01_add-domain/</loc>
+    <lastmod>2022-06-27T01:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/posts/2022-06-27-pulumi_libvirt-00_bootstrap/</loc>
     <lastmod>2022-06-18T01:00:00+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-06-18-pulumi_libvirt-00_bootstrap/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/tags/libvirt/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/tags/pulumi/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/tags/virtualization/</loc>
-    <lastmod>2022-06-18T01:00:00+09:00</lastmod>
-  </url><url>
-    <loc>/posts/2022-06-18-pulumi_libvirt-series/</loc>
+    <loc>https://someideas.net/tags/debian/</loc>
     <lastmod>2022-06-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/tags/golang/</loc>
+    <loc>https://someideas.net/posts/2022-06-18-pulumi_libvirt-series/</loc>
+    <lastmod>2022-06-18T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://someideas.net/tags/golang/</loc>
     <lastmod>2022-06-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/tags/http/</loc>
+    <loc>https://someideas.net/tags/http/</loc>
     <lastmod>2022-06-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-06-17-simple_http-server/</loc>
+    <loc>https://someideas.net/posts/2022-06-17-simple_http-server/</loc>
     <lastmod>2022-06-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</loc>
+    <loc>https://someideas.net/posts/2022-06-16-my_qemu-kvm-libvirt_setup/</loc>
     <lastmod>2022-06-16T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/tags/monitoring/</loc>
+    <loc>https://someideas.net/tags/monitoring/</loc>
     <lastmod>2022-05-07T17:31:49+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</loc>
+    <loc>https://someideas.net/posts/2022-05-07-monitoring_prometheus_vmware_exporter/</loc>
     <lastmod>2022-05-07T17:31:49+09:00</lastmod>
   </url><url>
-    <loc>/tags/prometheus/</loc>
+    <loc>https://someideas.net/tags/prometheus/</loc>
     <lastmod>2022-05-07T17:31:49+09:00</lastmod>
   </url><url>
-    <loc>/tags/raspberry-pi/</loc>
+    <loc>https://someideas.net/tags/raspberry-pi/</loc>
     <lastmod>2022-05-07T17:31:49+09:00</lastmod>
   </url><url>
-    <loc>/tags/vmware/</loc>
+    <loc>https://someideas.net/tags/vmware/</loc>
     <lastmod>2022-05-07T17:31:49+09:00</lastmod>
   </url><url>
-    <loc>/tags/vmware_exporter/</loc>
+    <loc>https://someideas.net/tags/vmware_exporter/</loc>
     <lastmod>2022-05-07T17:31:49+09:00</lastmod>
   </url><url>
-    <loc>/posts/2022-05-07-my-another-first-post/</loc>
+    <loc>https://someideas.net/posts/2022-05-07-my-another-first-post/</loc>
     <lastmod>2022-05-07T01:06:29+09:00</lastmod>
   </url><url>
-    <loc>/posts/2021-01-07-my-first-post/</loc>
+    <loc>https://someideas.net/posts/2021-01-07-my-first-post/</loc>
     <lastmod>2021-01-07T01:06:29+09:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://someideas.net/about/</loc>
   </url><url>
-    <loc>/about_old/</loc>
+    <loc>https://someideas.net/tags/about_me/</loc>
   </url><url>
-    <loc>/tags/about_me/</loc>
+    <loc>https://someideas.net/categories/</loc>
   </url><url>
-    <loc>/categories/</loc>
-  </url><url>
-    <loc>/tags/qemu/kvm/</loc>
+    <loc>https://someideas.net/tags/qemu/kvm/</loc>
   </url>
 </urlset>
