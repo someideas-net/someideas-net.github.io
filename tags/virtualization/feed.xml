@@ -562,12 +562,12 @@ tasks  install pulumi bootstrap project test  1. install pulumi  https://pulumi.
       
       <guid>https://someideas.net/posts/2022-06-18-pulumi_libvirt-series/</guid>
       <description>description The idea of this series is to share my progress integrating Pulumi to my workflow.
-While googling for pulumi + libvirt I came across Dustin Pecker&amp;rsquo;s blog https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt which is written in golang.
+While googling for pulumi + libvirt I came across Dustin Pecker&amp;rsquo;s blog https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt where he uses golang provider.
 I have taken his work as a base, transpiled his code to python and then started to do my own thing.
 progress    Links     01 - Adding Domain   02 - Adding Storage   03 - Adding Serial Console   04 - Adding CloudInit-userdata   05 - Adding CloudInit-network   06 - Get IP_Address and VM-Name   07 - Adding Autostart   08 - Changing network NAT -&amp;gt; Bridge    </description>
       <content>&lt;h2 id=&#34;description&#34;&gt;description&lt;/h2&gt;
 &lt;p&gt;The idea of this series is to share my progress integrating Pulumi to my workflow.&lt;/p&gt;
-&lt;p&gt;While googling for &lt;i&gt;&lt;code&gt;pulumi + libvirt&lt;/code&gt;&lt;/i&gt; I came across Dustin Pecker&amp;rsquo;s blog &lt;a href=&#34;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&#34;&gt;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&lt;/a&gt; which is written in golang.&lt;/p&gt;
+&lt;p&gt;While googling for &lt;i&gt;&lt;code&gt;pulumi + libvirt&lt;/code&gt;&lt;/i&gt; I came across Dustin Pecker&amp;rsquo;s blog &lt;a href=&#34;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&#34;&gt;https://dustinspecker.com/posts/ubuntu-vm-pulumi-libvirt&lt;/a&gt; where he uses golang provider.&lt;/p&gt;
 &lt;p&gt;I have taken his work as a base, transpiled his code to python and then started to do my own thing.&lt;/p&gt;
 &lt;h2 id=&#34;progress&#34;&gt;progress&lt;/h2&gt;
 &lt;table&gt;
