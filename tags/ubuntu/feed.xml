@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jun 2022 08:00:00 +0900</lastBuildDate><atom:link href="https://someideas.net/tags/ubuntu/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 08 | Changing network NAT -&gt; Bridge</title>
+      <title>Pulumi start | libvirt-python 08 | Changing network NAT -&gt; Bridge</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-08_changing_network-nat-bridge/</link>
       <pubDate>Mon, 27 Jun 2022 08:00:00 +0900</pubDate>
       
@@ -85,7 +85,7 @@ tasks &amp;#34;&amp;#34;&amp;#34;A Python Pulumi program&amp;#34;&amp;#34;&amp;#
     </item>
     
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 07 | Add autostart</title>
+      <title>Pulumi start | libvirt-python 07 | Add autostart</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-07_add-autostart/</link>
       <pubDate>Mon, 27 Jun 2022 07:00:00 +0900</pubDate>
       
@@ -160,7 +160,7 @@ tasks &amp;#34;&amp;#34;&amp;#34;A Python Pulumi program&amp;#34;&amp;#34;&amp;#
     </item>
     
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 06 | get IP address and and VM Name</title>
+      <title>Pulumi start | libvirt-python 06 | get IP address and and VM Name</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-06_get_ip-address-vm-name/</link>
       <pubDate>Mon, 27 Jun 2022 06:00:00 +0900</pubDate>
       
@@ -233,7 +233,7 @@ tasks &amp;#34;&amp;#34;&amp;#34;A Python Pulumi program&amp;#34;&amp;#34;&amp;#
     </item>
     
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 05 | adding cloud-init, network-config</title>
+      <title>Pulumi start | libvirt-python 05 | adding cloud-init, network-config</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-05_add-cloudinit_network-config/</link>
       <pubDate>Mon, 27 Jun 2022 05:00:00 +0900</pubDate>
       
@@ -312,7 +312,7 @@ version: 2 ethernets:  ens3:  dhcp4: true &amp;#34;&amp;#34;&amp;#34;A Python Pu
     </item>
     
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 04 | adding cloud-init, userdata</title>
+      <title>Pulumi start | libvirt-python 04 | adding cloud-init, userdata</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-04_add-cloudinit_userdata/</link>
       <pubDate>Mon, 27 Jun 2022 04:00:00 +0900</pubDate>
       
@@ -382,7 +382,7 @@ tasks cat &amp;lt;&amp;lt; EOF &amp;gt; cloud_init_user_data.yaml:
     </item>
     
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 03 | adding serial console</title>
+      <title>Pulumi start | libvirt-python 03 | adding serial console</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-03_add-serial_console/</link>
       <pubDate>Mon, 27 Jun 2022 03:00:00 +0900</pubDate>
       
@@ -427,7 +427,7 @@ tasks &amp;#34;&amp;#34;&amp;#34;A Python Pulumi program&amp;#34;&amp;#34;&amp;#
     </item>
     
     <item>
-      <title>IaaC | Pulumi start | libvirt-python 02 | adding storage</title>
+      <title>Pulumi start | libvirt-python 02 | adding storage</title>
       <link>https://someideas.net/posts/2022-06-27-pulumi_libvirt-02_add-storage/</link>
       <pubDate>Mon, 27 Jun 2022 02:00:00 +0900</pubDate>
       
